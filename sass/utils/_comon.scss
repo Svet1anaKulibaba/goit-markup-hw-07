@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+ul {
+  margin-block-start: 0;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+.list {
+  margin: 0%;
+  padding: 0;
+  list-style: none;
+}
+.section {
+  padding: 94px 0 94px;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a[section] {
+  padding: 94px;
+}
+.picture {
+  display: flex;
+}
+img {
+  display: block;
+}
+.team-title {
+  text-align: center;
+  margin: 0;
+}
+:root {
+  --first-title-color: #212121;
+  --design-color: #2196f3;
+}
+
+.conteiner {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

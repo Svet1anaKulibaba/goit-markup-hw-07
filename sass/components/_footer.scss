@@ -45,7 +45,7 @@
   color: #ffffff;
   text-align: start;
 }
-.footer-address {
+.footer__address {
   margin: 0;
   margin-top: 20px;
 }
@@ -53,10 +53,10 @@
   margin-bottom: 9px;
 }
 
-.footer-address > a:focus {
+.footer__address > a:focus {
   color: var(--design-color);
 }
-.footer-address > a:hover {
+.footer__address > a:hover {
   color: var(--design-color);
 }
 .footer-links-title {

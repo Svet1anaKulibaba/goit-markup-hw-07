@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
 }
-.before-picture {
+.topic__before-picture {
   display: flex;
   content: "";
   height: 120px;
@@ -21,7 +21,7 @@
 .topic:nth-child(4n) {
   margin-right: 0;
 }
-.topic-title {
+.topic__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -30,7 +30,7 @@
   color: var(--first-title-color);
   margin-bottom: 10px;
 }
-.topic-inf {
+.topic__inf {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -49,18 +49,18 @@
   text-align: center;
 }
 
-.pic-conteiner {
+.pictures {
   text-align: center;
   display: flex;
 }
 
-.img-conteiner {
+.pictures__img-conteiner {
   margin-right: 30px;
 }
-.img-conteiner:nth-last-child {
+.pictures__img-conteiner:nth-last-child {
   margin-right: 0;
 }
-.bcg {
+.pictures__bcg {
   display: flex;
   position: absolute;
   width: 370px;
@@ -70,7 +70,7 @@
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
-.bcg-text {
+.pictures__bcg-text {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
